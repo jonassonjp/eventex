@@ -1,0 +1,20 @@
+p.blog-entry-tags {
+	background-image: url(../../images/tag_orange.gif);
+}
+
+.blog-archive-link-enabled,
+.blog-archive-link-disabled {
+	background-image: url(../../images/date_orange.png);
+}
+
+.blog-entry-category a:link,
+.blog-entry-category a:visited,
+.blog-category-link-enabled,
+.blog-category-link-disabled {
+	background-image: url(../../images/category_orange.png);
+}
+
+#navcontainer #current,
+#navcontainer .currentAncestor {
+	background-image: url(../../images/menu_orange.png);
+}

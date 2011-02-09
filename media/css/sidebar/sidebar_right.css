@@ -1,0 +1,11 @@
+/* default float side for sidebar */
+#sidebarContainer {
+	float: right;
+}
+
+#contentContainer {
+	margin-right: 235px;
+	background-image: url(../../images/menu_right_bg.png);
+	background-position: right 2px;
+
+}

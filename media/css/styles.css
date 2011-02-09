@@ -1,0 +1,1113 @@
+/* @group General Styles */
+
+body {
+	text-align: center;
+	padding: 0;
+	margin: 0 0 20px;
+	font: 0.85em/1.6em "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+
+#body_bg {
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: block;
+	width: 100%;
+	height: 489px;
+	z-index: 0;
+	overflow: hidden;
+}
+
+p {
+}
+
+b, strong {
+
+}
+
+a:link, a:visited {
+	color: #362f2d;
+}
+
+a:hover, a:active {
+	text-decoration: none;
+}
+
+img {
+}
+
+.image-left {
+	float: left;
+	margin: 3px 10px 3px 0;
+}
+
+.image-right {
+	float: right;
+	margin: 3px 0 3px 10px;
+}
+	
+/* @end */
+
+/* @group Layout */
+#container {
+	margin: 0px auto;
+	text-align: left;
+	position: relative;
+	z-index: 1;
+	border-bottom: 3px solid;
+	border-left: 3px solid;
+	border-right: 3px solid;
+	background: #fff url(images/content_top_bg.png) repeat-x left 176px;
+}
+
+.clearer {
+	clear: both;
+}
+
+#pageHeader {
+	display: block;
+	height: 175px;
+	position: relative;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#pageHeader img {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+#pageHeader #top_grad {
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: block;
+	width: 100%;
+	height: 146px;
+	overflow: hidden;
+	z-index: 2;
+}
+
+#pageHeader #bar {
+	position: absolute;
+	left: 0;
+	top: 150px;
+	display: block;
+	width: 100%;
+	height: 25px;
+	overflow: hidden;
+	border-top: 1px solid;
+}
+
+#pageHeader #bar img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: block;
+	width: 100%;
+	height: 23px;
+}
+
+#pageHeader h1 {
+	position: absolute;
+	top: 42px;
+	left: 30px;
+	z-index: 3;
+	font-size: 2.7em;
+}
+
+#pageHeader h2 {
+	position: absolute;
+	top: 87px;
+	left: 30px;
+	z-index: 3;
+	font-weight: normal;
+	font-size: 1.3em;
+}
+
+#contentContainer {
+	background-repeat: no-repeat;
+}
+
+.contentSpacer {
+	height: 400px;
+	float: right;
+	width:1px;
+}
+
+#contentContainer #content {
+	padding: 30px;
+}
+
+#sidebarContainer {
+	width: 235px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	position: relative;
+	z-index: 5;
+}
+
+#sidebarContainer #sidebar {
+	padding: 30px;
+}
+
+#sidebarContainer .sideHeader,
+#sidebarContainer h1,
+#sidebarContainer h2,
+#sidebarContainer h3,
+#sidebarContainer h4 {
+	font-style: italic;
+}
+
+#sidebarContainer .sideHeader,
+#sidebarContainer h1 {
+	font-size: 1.3em;
+}
+
+#sidebarContainer h2 {
+	font-size: 1.2em;
+}
+
+#sidebarContainer h3 {
+	font-size: 1.15em;
+}
+
+#sidebarContainer h4 {
+	font-size: 1.1em;
+}
+
+#footer {
+	border-top: 3px solid;
+	padding: 15px 0;
+	font-size: 0.95em;
+}
+
+#footer p {
+	margin: 0;
+	padding: 0 30px;
+}
+
+#footer a:link, #footer a:visited {
+
+}
+
+#footer a:hover, #footer a:active {
+}
+	
+/* @end */
+
+/* @group Bread-crumb */
+
+#breadcrumbcontainer {
+	position: relative;
+	z-index: 4;
+}
+
+#breadcrumbcontainer ul {
+	list-style: none;
+	margin: 0;
+	padding: 0 30px;
+}
+
+#breadcrumbcontainer li {
+	display: inline;
+}
+
+#breadcrumbcontainer a {
+
+}
+
+#breadcrumbcontainer a:hover {
+
+}
+	
+/* @end */
+
+/* @group Toolbar */
+
+/* Toolbar Styles */
+
+#navcontainer {
+	padding: 30px 30px 0;
+}
+
+#navcontainer #current {
+	padding-right: 36px;
+	background-position: right 3px;
+	background-repeat: no-repeat;
+	font-weight: bold;
+}
+
+#navcontainer #current:hover {
+}
+
+#navcontainer .currentAncestor {
+	padding-right: 36px;
+	background-position: right 3px;
+	background-repeat: no-repeat;
+	font-weight: bold;
+}
+
+/* Parent - Level 0 */
+
+#navcontainer ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#navcontainer li {
+}
+
+#navcontainer a {
+	text-decoration: none;
+}
+
+#navcontainer a:hover {
+}
+
+#navcontainer a:active {
+}
+
+/* Child - Level 1 */
+/* All browsers will use this code, it will make the pop out menus work */
+#navcontainer ul ul {
+	margin: 3px 0 3px 10px;
+}
+
+#navcontainer ul ul li {
+}
+
+#navcontainer ul ul a {
+}
+
+#navcontainer ul ul a:hover {
+}
+
+#navcontainer ul ul #current{
+}
+
+
+/* Child Level 3 */
+
+#navcontainer ul ul ul {
+}
+
+#navcontainer ul ul ul li { 
+}
+
+#navcontainer ul ul ul a {
+}
+
+#navcontainer ul ul ul ul a:hover{
+
+}
+
+/* @end */
+
+/* @group Global Classes */
+
+blockquote, .standout {
+	margin: 0;
+	font: italic 1.2em/1.5 Georgia, "Times New Roman", Times, serif;
+}
+
+h1 {
+	letter-spacing: -1px;
+	font: 2.2em Georgia, "Times New Roman", Times, serif;
+	margin: 0 0 5px;
+}
+
+h2 {
+	font: italic normal 1.8em Georgia, "Times New Roman", Times, serif;
+	margin: 0 0 5px;
+}
+
+h3 {
+	letter-spacing: -1px;
+	font: 1.6em Georgia, "Times New Roman", Times, serif;
+	margin: 0 0 5px;
+}
+
+h4 {
+	font: italic normal 1.4em Georgia, "Times New Roman", Times, serif;
+	margin: 0 0 5px;
+}
+
+.imageStyle {
+
+}
+
+/* Main content area unordered list styles */
+#contentContainer #content ul {
+}
+
+#contentContainer #content li {
+}
+
+ul.disc {
+	list-style-type: disc;
+}
+
+ul.circle {
+	list-style-type: circle;
+}
+
+ul.square {
+	list-style-type: square;
+}
+
+ol.arabic-numbers {
+	list-style-type: decimal;
+}
+
+ol.upper-alpha {
+	list-style-type: upper-alpha;
+}
+
+ol.lower-alpha {
+	list-style-type: lower-alpha;
+}
+
+ol.upper-roman {
+	list-style-type: upper-roman;
+}
+
+ol.lower-roman {
+	list-style-type: lower-roman;
+}
+/* Sidebar area unordered list styles */
+#sidebarContainer #sidebar ul {
+}
+
+#sidebarContainer #sidebar li {
+}
+
+
+/* Table Styles */
+table {
+	font-size: 1em;
+}
+/* @end */
+
+/* @group Blog */
+
+/* @group Archive Page */
+
+.blog-archive-background {
+}
+
+.blog-entry-summary {
+	margin-bottom: 10px;
+}
+
+.blog-archive-headings-wrapper {
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid;
+}
+
+.blog-archive-entries-wrapper {
+}
+
+.blog-archive-entries-wrapper .blog-entry {
+}
+
+.blog-archive-month {
+	letter-spacing: -1px;
+	font: 2.2em Georgia, "Times New Roman", Times, serif;
+	margin: 0 0 5px;
+}
+
+.blog-archive-link {
+}
+
+.blog-archive-link a:link, .blog-archive-link a:visited {
+}
+	
+/* @end */
+
+/* @group Tag Cloud */
+ul.blog-tag-cloud {
+	margin: 0 0 10px;
+	padding: 0;
+	text-align: justify;
+}
+
+ul.blog-tag-cloud li {
+	display: inline;
+	padding-right: 5px;
+}
+
+.blog-tag-size-1 {	
+	font-size: 0.8em;
+}
+
+.blog-tag-size-2 {	
+	font-size: 0.85em;
+}
+
+.blog-tag-size-3 {	
+	font-size: 0.9em;
+}
+
+.blog-tag-size-4 {	
+	font-size: 0.95em;
+}
+
+.blog-tag-size-5 {	
+	font-size: 1em;
+}
+
+.blog-tag-size-6 {	
+	font-size: 1.05em;
+}
+
+.blog-tag-size-7 {	
+	font-size: 1.1em;
+}
+
+.blog-tag-size-8 {	
+	font-size: 1.15em;
+}
+
+.blog-tag-size-9 {	
+	font-size: 1.2em;
+}
+
+.blog-tag-size-10 {	
+	font-size: 1.25em;
+}
+
+.blog-tag-size-11 {	
+	font-size: 1.3em;
+}
+
+.blog-tag-size-12 {	
+	font-size: 1.35em;
+}
+
+.blog-tag-size-13 {
+	font-size: 1.4em;
+}
+
+.blog-tag-size-14 {	
+	font-size: 1.45em;
+}
+
+.blog-tag-size-15 {
+	font-size: 1.5em;
+}
+
+.blog-tag-size-16 {	
+	font-size: 1.55em;
+}
+
+.blog-tag-size-17 {	
+	font-size: 1.6em;
+}
+
+.blog-tag-size-18 {	
+	font-size: 1.65em;
+}
+
+.blog-tag-size-19 {
+	font-size: 1.7em;
+}
+
+.blog-tag-size-20 {	
+	font-size: 1.75em;
+}
+
+/* @end */
+
+.blog-entry {
+	padding-bottom: 40px;
+}
+
+.blog-entry-title a {
+	letter-spacing: -1px;
+	margin-bottom: 5px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-decoration: none;
+}
+
+.blog-entry-date {
+	margin-bottom: 15px;
+	font: italic 1.1em Georgia, "Times New Roman", Times, serif;
+}
+
+.blog-read-more {
+	display: block;
+	padding-top: 10px;
+	font-style: italic;
+}
+
+.blog-entry-body {
+}
+
+.blog-entry-comments {
+	border-top: 1px solid;
+	margin-top: 10px;
+	padding: 10px 0;
+	font-size: 0.9em;
+}
+
+p.blog-entry-tags {
+	padding-left: 20px;
+	background-position: left 3px;
+	background-repeat: no-repeat;
+}
+
+/*styles the category link in the main entry */
+.blog-entry-category {
+}
+
+.blog-entry-category a:link,
+.blog-entry-category a:visited {
+	padding-left: 20px;
+	margin-right: 5px;
+	background-repeat: no-repeat;
+	background-position: left center;
+	font-style: normal;
+}
+
+#blog-archives br,
+#blog-categories br,
+#blog-rss-feeds br {
+	display: none;
+}
+
+#blog-archives a,
+#blog-categories a,
+#blog-rss-feeds a {
+	text-decoration: none;
+}
+
+/* styles the archives in the blog sidebar */
+#blog-archives {
+	margin-bottom: 10px;
+	line-height: 1.7;
+}
+
+.blog-archive-link-enabled {
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 20px;
+	display: block;
+}
+
+.blog-archive-link-disabled {
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 20px;
+	display: block;
+}
+
+/* Styles the blog categories in the blog sidebar */
+#blog-categories {
+	margin-bottom: 10px;
+	line-height: 1.7;
+}
+
+.blog-category-link-enabled {
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 20px;
+	display: block;
+}
+
+.blog-category-link-disabled {
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 20px;
+	display: block;
+}
+
+/* Styles the blog RSS feeds in the blog sidebar */
+#blog-rss-feeds {
+	margin-bottom: 10px;
+	line-height: 1.7;
+}
+
+.blog-rss-link {
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-image: url(images/rss_icon.gif);
+	padding-left: 20px;
+	display: block;
+}
+
+.blog-comments-rss-link {
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-image: url(images/rss_icon.gif);
+	padding-left: 20px;
+	display: block;
+}
+
+/* @end */
+
+/* @group File Sharing */
+
+.filesharing-description {
+}
+
+.filesharing-item {
+	padding-bottom: 15px;
+}
+
+.filesharing-item-title a:link {
+	letter-spacing: -1px;
+	margin-bottom: 5px;
+	font: 1.5em Georgia, "Times New Roman", Times, serif;
+}
+
+.filesharing-item-title a:hover {
+}
+
+.filesharing-item-title a:visited {
+
+}
+
+.filesharing-item-description {
+}
+
+/* @end */
+
+/* @group Photo Album */
+
+/* @group Index Page (Thumbnail view) */
+
+.album-title {
+	letter-spacing: -1px;
+	margin-bottom: 5px;
+	font: 2.2em Georgia, "Times New Roman", Times, serif;
+}
+
+.album-description {
+	margin-bottom: 75px;
+}
+
+
+.album-wrapper {
+	display: block;
+	width: 99%;
+	position: relative;
+}
+
+.thumbnail-wrap {
+	text-align: center;
+	position: relative;
+	float: left;
+	margin-bottom: 60px;
+	margin-right: 20px;
+}
+
+.thumbnail-frame {
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-left: 5px;
+}
+
+.thumbnail-frame:hover {
+}
+
+.thumbnail-frame a {
+}
+
+.thumbnail-frame a:hover {
+	background: transparent;
+}
+
+.thumbnail-frame img {
+	margin: auto;
+	border: 3px solid;
+	padding: 1px;
+}
+
+.thumbnail-caption {
+	color: #b3b3b3;
+	margin: 0;
+	width: 100%;
+	height: 38px;
+	display: block;
+	padding: 0 0 0 5px;
+}
+	
+/* @end */
+
+/* @group Single Page (Photo view) */
+
+.photo-background {
+	text-align: left;
+}
+
+.photo-navigation {
+	width: 200px;
+	float: left;
+	margin: 15px 15px 0;
+	background: #fff;
+	padding: 15px;
+}
+
+.photo-links {
+}
+
+.photo-navigation a:link,
+.photo-navigation a:visited {
+}
+
+.photo-navigation a:hover {
+	background: transparent;
+}
+
+.photo-frame {
+	border: 3px solid;
+	padding: 1px;
+	position: absolute;
+	left: 260px;
+	top: 15px;
+}
+
+.photo-title {
+	margin: 0;
+	font-size: 1.5em;
+	font-weight: normal;
+}
+
+.photo-caption {
+	margin: 0;
+	font: italic normal 1em Georgia, "Times New Roman", Times, serif;
+}
+
+/* @group EXIF data */
+/* Data wrapper */
+.exif-data {
+	clear: left;
+	margin: 0 0 0 15px;
+	padding: 15px;
+	float: left;
+	width: 200px;
+	background: #fff;
+}
+
+.exif-data p {
+	margin: 0;
+	padding: 0;
+}
+
+/* p tag classes for all exif data */
+p.exif-version {
+}
+
+p.exif-colour-space {
+}
+
+p.exif-focal-length {
+}
+
+p.exif-dimensions {
+}
+
+p.exif-pixel-y-dimension {
+}
+
+p.exif-pixel-x-dimension {
+}
+
+p.exif-oecf-value {
+}
+
+p.exif-subsec-time-original {
+}
+
+p.exif-exposure-mode {
+}
+
+p.exif-spatial-frequency-response {
+}
+
+p.exif-scene-capture-type {
+}
+
+p.exif-subject-location {
+}
+
+p.exif-shutter-speed {
+}
+
+p.exif-datetime-original {
+}
+
+p.exif-subsec-time {
+}
+
+p.exif-compressed-bits-per-pixel {
+}
+
+p.exif-flash-energy {
+}
+
+p.exif-saturation {
+}
+
+p.exif-brightness {
+}
+
+p.exif-exposure-time {
+}
+
+p.exif-f-number {
+}
+
+p.exif-file-source {
+}
+
+p.exif-gain-control {
+}
+
+p.exif-subject-area {
+}
+
+p.exif-cfa-pattern {
+}
+
+p.exif-scene-type {
+}
+
+p.exif-white-balance {
+}
+
+p.exif-flash {
+}
+
+p.exif-exposure-index {
+}
+
+p.exif-flashpix-version {
+}
+
+p.exif-device-setting-description {
+}
+
+p.exif-focalplane-x-resolution {
+}
+
+p.exif-image-uniqueid {
+}
+
+p.exif-components-configuration {
+}
+
+p.exif-light-source {
+}
+
+p.exif-sensing-method {
+}
+
+p.exif-aperture {
+}
+
+p.exif-sharpness {
+}
+
+p.exif-exposure-program {
+}
+
+p.exif-subject-distance {
+}
+
+p.exif-subsec-time-digitized {
+}
+
+p.exif-contrast {
+}
+
+p.exif-focalplane-resolution-unit {
+}
+
+p.exif-gamma {
+}
+
+p.exif-35mm-focal-length {
+}
+
+p.exif-datetime-digitized {
+}
+
+p.exif-subject-distance-range {
+}
+
+p.exif-custom-rendered {
+}
+
+p.exif-max-aperture {
+}
+
+p.exif-sound-file {
+}
+
+p.exif-metering-mode {
+}
+
+p.exif-spectral-sensitivity {
+}
+
+p.exif-exposure-bias {
+}
+
+p.exif-focalplane-y-resolution {
+}
+
+p.exif-iso-rating {
+}
+
+p.exif-maker-note {
+}
+
+p.exif-digital-zoom-ratio {
+}
+
+p.exif-user-comment {
+}
+/* @end */
+
+/* @end */
+	
+/* @end */
+
+/* @group Quicktime Page */
+
+.movie-description {
+
+}
+	
+/* @end */
+
+/* @group Quicktime Album */
+
+/* @group Index Page (Movie Thumbnail view) */
+
+.movie-page-title {
+	letter-spacing: -1px;
+	margin-bottom: 5px;
+	font: 2.2em Georgia, "Times New Roman", Times, serif;
+}
+
+.movie-page-description {
+	margin-bottom: 15px;
+}
+
+.movie-thumbnail-frame {
+	width: 134px;
+	height: 134px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.movie-thumbnail-frame:hover {
+}
+
+.movie-thumbnail-frame img {
+	padding: 1px;
+	border: 3px solid;
+	margin-bottom: 5px;
+}
+
+.movie-thumbnail-caption {
+	color: #b3b3b3;
+}
+	
+/* @end */
+
+/* @group Single Page (Movie View) */
+
+.movie-background {
+	margin: 5px;
+}
+
+.movie-title {
+	letter-spacing: -1px;
+	font: 2.2em Georgia, "Times New Roman", Times, serif;
+	margin: 10px 0 5px;
+}
+
+.movie-frame {
+	padding: 1px;
+}
+	
+/* @end */
+
+
+/* @end */
+
+/* @group Contact Form */
+form {
+	margin: 0;
+}
+
+.message-text {
+	font-weight: bold;
+	font-style: italic;
+} 
+
+.required-text {
+} 
+
+.form-input-field {
+	background: #f4f4f4;
+	font-size: 1em;
+	width: 98%;
+} 
+
+.form-input-button {
+	font-size: 1.3em;
+} 
+/* @end */
+
+/* @group JS-Kit Override */
+
+.js-singleCommentBodyT {
+	display: block;
+	padding-top: 17px !important;
+
+}
+
+.js-singleCommentHeader {
+	padding: 0 8px !important;
+}
+
+.js-OldComments,
+.js-commentFieldLabel,
+.js-pmFieldLabel,
+.js-singleCommentBody,
+.js-singleCommentKarmaComMod,
+.js-commentBodyLabel,
+.js-commentCmtTextarea,
+.js-commentAvatarArea,
+.js-OldCommentsWrap,
+.js-OldComments,
+.js-CreateCommentFieldsWrap,
+.js-CreateCommentFields,
+.js-commentCmtTextarea,
+.js-kit-comments div {
+	clear: none !important;
+}
+
+.js-singleCommentText {
+	display: block !important;
+	clear: both !important;
+}
+
+.js-kit-comments br {
+	display: none !important;
+}
+
+.js-singleCommentBody br {
+	display: block !important;
+}
+
+/* @end */

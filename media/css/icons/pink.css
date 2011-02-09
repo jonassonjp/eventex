@@ -1,0 +1,21 @@
+p.blog-entry-tags {
+	background-image: url(../../images/tag_pink.gif);
+}
+
+.blog-archive-link-enabled,
+.blog-archive-link-disabled {
+	background-image: url(../../images/date_pink.png);
+}
+
+
+.blog-entry-category a:link,
+.blog-entry-category a:visited,
+.blog-category-link-enabled,
+.blog-category-link-disabled {
+	background-image: url(../../images/category_pink.png);
+}
+
+#navcontainer #current,
+#navcontainer .currentAncestor {
+	background-image: url(../../images/menu_pink.png);
+}
