@@ -2,3 +2,7 @@ Projeto do curso Welcome to the Django
 (http://welcometothedjango.com.br/)
 Acrescentado o repositório remoto Herike
 Acrescentando arquivo de projeto do TextMate
+
+Criou model: subscription
+Configurou settings.py
+Criou classe em models.py
