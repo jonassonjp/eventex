@@ -3,6 +3,9 @@ Projeto do curso Welcome to the Django
 Acrescentado o repositório remoto Herike
 Acrescentando arquivo de projeto do TextMate
 
+== Sprint 2 ==
 Criou model: subscription
 Configurou settings.py
 Criou classe em models.py
+Criar subscription/urls.py
+    estabelecer relacao entre as urls.py e subscription/urls.py
