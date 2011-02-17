@@ -7,6 +7,7 @@ TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
     # ('Your Name', 'your_email@domain.com'),
+	# eventex.jp@gmail.com :: eventexwttd
 )
 
 MANAGERS = ADMINS
