@@ -1,81 +1,10 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-	<head>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="robots" content="all" />
-		<meta name="generator" content="RapidWeaver" />
+{% extends 'base.html' %}
+{% block content %}
 		
-		<title>index</title>
-		<link rel="stylesheet" type="text/css" media="screen" href="{{ MEDIA_URL }}css/styles.css"  />
-		<!--[if IE 6]><link rel="stylesheet" type="text/css" media="screen" href="{{ MEDIA_URL }}css/ie6.css"  /><![endif]-->
-		<link rel="stylesheet" type="text/css" media="screen" href="{{ MEDIA_URL }}css/colourtag-theme-default.css"  />
-		<link rel="stylesheet" type="text/css" media="print" href="{{ MEDIA_URL }}css/print.css"  />
-		<link rel="stylesheet" type="text/css" media="handheld" href="{{ MEDIA_URL }}css/handheld.css"  />
-		<link rel="stylesheet" type="text/css" media="screen" href="{{ MEDIA_URL }}css/width/800.css" />
-		<link rel="stylesheet" type="text/css" media="screen" href="{{ MEDIA_URL }}css/icons/orange.css" />
-		<link rel="stylesheet" type="text/css" media="screen" href="{{ MEDIA_URL }}css/sidebar/sidebar_right.css" />
-		
-		
-		
-		
-		<script type="text/javascript" src="{{ MEDIA_URL }}javascript/javascript.js"></script>
-		
-		
-		<!--[if IE 6]><script type="text/javascript" charset="utf-8">
-			var blankSrc = "{{ MEDIA_URL }}images/blank.gif";
-		</script>	
-		<style type="text/css">
-			img { behavior:	url("{{ MEDIA_URL }}images/pngbehavior.htc"); }
-		</style><![endif]-->
-		
-		
-		
-	</head>
-<body>
-<div id="body_bg">
-	<img src="{{ MEDIA_URL }}images/body_bg.png" alt="" style="width: 3000px; height: 489px;" />
-</div>
-<div id="container"><!-- Start container -->
-	<div id="pageHeader"><!-- Start page header -->
-		<div id="top_grad">
-			<img src="{{ MEDIA_URL }}images/header_top_grad.png" alt="" style="width: 3000px; height: 146px;" />
-		</div>
-		
-		<h1>Eventex</h1>
-		<h2>Grande evento da WTTD</h2>
-		<div id="bar">
-			<img src="{{ MEDIA_URL }}images/header_bottom_bar_grad.png" alt="" style="width: 3000px; height: 23px;" />
-		</div>
-	</div><!-- End page header -->
-	<div id="sidebarContainer"><!-- Start Sidebar wrapper -->
-		<div class="contentSpacer"></div><!-- this makes sure the content is long enough for the design -->
-		<div id="navcontainer"><!-- Start Navigation -->
-			
-		</div><!-- End navigation -->
-		<div id="sidebar"><!-- Start sidebar content -->
-			<h1 class="sideHeader"></h1><!-- Sidebar header -->
-			<!-- sidebar content you enter in the page inspector -->
-			 <!-- sidebar content such as the blog archive links -->
-		</div><!-- End sidebar content -->
-	</div><!-- End sidebar wrapper -->
-	<div id="contentContainer"><!-- Start main content wrapper -->
-		<div id="content"><!-- Start content -->
-			
-			<p>Você não pode perder esta oportunidade</p>
-			<p><strong>Abertura das inscrições em 12/02/2011</strong></p>
-			<p>Para dúvidas e mais informações entre em contato com <a href="mailto:jonaspereira@eventex.com.br">jonaspereira@eventex.com.br</a></p>
-			<p>Updated from work</p>
-			
-			
-		</div><!-- End content -->
-		<div class="clearer"></div>
-	</div><!-- End main content wrapper -->
-	<div id="footer"><!-- Start Footer -->
-		<p>&copy; 2011 Jonas Pereira <a href="#" id="rw_email_contact">Contato</a><script type="text/javascript">var _rwObsfuscatedHref0 = "mai";var _rwObsfuscatedHref1 = "lto";var _rwObsfuscatedHref2 = ":jo";var _rwObsfuscatedHref3 = "nas";var _rwObsfuscatedHref4 = "son";var _rwObsfuscatedHref5 = "jp@";var _rwObsfuscatedHref6 = "gma";var _rwObsfuscatedHref7 = "il.";var _rwObsfuscatedHref8 = "com";var _rwObsfuscatedHref = _rwObsfuscatedHref0+_rwObsfuscatedHref1+_rwObsfuscatedHref2+_rwObsfuscatedHref3+_rwObsfuscatedHref4+_rwObsfuscatedHref5+_rwObsfuscatedHref6+_rwObsfuscatedHref7+_rwObsfuscatedHref8; document.getElementById('rw_email_contact').href = _rwObsfuscatedHref;</script></p>
-		<div id="breadcrumbcontainer"><!-- Start the breadcrumb wrapper -->
-			
-		</div><!-- End breadcrumb -->
-	</div><!-- End Footer -->
-</div><!-- End container -->
-</body>
-</html>
+	<p><h2>Você não pode perder esta oportunidade</h2></p>
+	<p><strong>Abertura das inscrições em 12/02/2011</strong></p>
+	<p>Para dúvidas e mais informações entre em contato com 
+		<a href="mailto:eventex.jp@gmail.com">eventex.jp@gmail.com</a>
+	</p>
+
+{% endblock content%}

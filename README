@@ -9,3 +9,5 @@ Configurou settings.py
 Criou classe em models.py
 Criar subscription/urls.py
     estabelecer relacao entre as urls.py e subscription/urls.py
+Criou o arquivo base.html
+Alterou index.html para herdar de base.html
