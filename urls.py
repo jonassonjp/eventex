@@ -8,7 +8,7 @@ from core.views import *
 
 urlpatterns = patterns('',
     (r'^$', homepage),
-    (r'inscricao/', include('subscription.urls',namespace='subscription')),
+    (r'inscricao/', include('subscription.urls', namespace='subscription')),
     # Example:
     # (r'^eventex/', include('eventex.foo.urls')),
 
