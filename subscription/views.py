@@ -41,7 +41,7 @@ def sucess(request,pk):
 def sendEmail(subscription):
 	return send_mail( 
 		subject = u'Inscricao no EventeX', 
-		message = u'Obrigado por se inscrever no EventeX!', 
+		message = u'Obrigado '+ subscription.name +' por se inscrever no EventeX!', 
 		from_email = 'eventex.jp@gmail.com', 
 		recipient_list = [ subscription.email ],
 	)
