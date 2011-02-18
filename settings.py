@@ -30,7 +30,8 @@ DATABASES = {
 # timezone as the operating system.
 # If running in a Windows environment this must be set to the same as your
 # system time zone.
-TIME_ZONE = 'America/Chicago'
+#TIME_ZONE = 'America/Chicago'
+TIME_ZONE = 'America/Recife'
 
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
@@ -103,3 +104,14 @@ INSTALLED_APPS = (
     'core',
 	'subscription',
 )
+
+# Configuracao de email
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend' 
+#EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend' 
+#EMAIL_BACKEND = 'django.core.mail.backends.dummy.EmailBackend'
+
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'eventex.jp@gmail.com'
+EMAIL_HOST_PASSWORD = 'eventexwttd'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
