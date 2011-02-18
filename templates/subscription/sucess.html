@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 {% block content %}
 		
-	<p>Parabéns <strong>{{ subscription.name }}</strong>, sua inscrição efetuada com sucesso<br>
-	Em breve você receberá um email com seus dados da inscrição</p>
+	<p>Parabéns <strong>{{ subscription.name }}</strong>, sua inscrição efetuada em {{ subscription.created_at|date:"d/m/Y" }}.<br>
+	Em breve você receberá um email com seus dados da inscrição.</p>
 
 {% endblock content%}
