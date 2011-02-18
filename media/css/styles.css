@@ -68,7 +68,7 @@ img {
 	display: block;
 	height: 175px;
 	position: relative;
-	font-family: Georgia, "Times New Roman", Times, serif;
+	font-family: Tahoma, Georgia, Times, serif;
 }
 
 #pageHeader img {
@@ -141,7 +141,7 @@ img {
 
 #sidebarContainer {
 	width: 235px;
-	font-family: Georgia, "Times New Roman", Times, serif;
+	font-family: Tahoma, Georgia,Times, serif;
 	position: relative;
 	z-index: 5;
 }
@@ -308,28 +308,28 @@ img {
 
 blockquote, .standout {
 	margin: 0;
-	font: italic 1.2em/1.5 Georgia, "Times New Roman", Times, serif;
+	font: italic 1.2em/1.5 Tahoma, Georgia,Times, serif;
 }
 
 h1 {
 	letter-spacing: -1px;
-	font: 2.2em Georgia, "Times New Roman", Times, serif;
+	font: 2.2em Tahoma, Georgia,Times, serif;
 	margin: 0 0 5px;
 }
 
 h2 {
-	font: italic normal 1.8em Georgia, "Times New Roman", Times, serif;
+	font: italic normal 1.8em Tahoma, Georgia,Times, serif;
 	margin: 0 0 5px;
 }
 
 h3 {
 	letter-spacing: -1px;
-	font: 1.6em Georgia, "Times New Roman", Times, serif;
+	font: 1.6em Tahoma, Georgia,Times, serif;
 	margin: 0 0 5px;
 }
 
 h4 {
-	font: italic normal 1.4em Georgia, "Times New Roman", Times, serif;
+	font: italic normal 1.4em Tahoma, Georgia,Times, serif;
 	margin: 0 0 5px;
 }
 
@@ -414,7 +414,7 @@ table {
 
 .blog-archive-month {
 	letter-spacing: -1px;
-	font: 2.2em Georgia, "Times New Roman", Times, serif;
+	font: 2.2em Tahoma, Georgia,Times, serif;
 	margin: 0 0 5px;
 }
 
@@ -527,13 +527,13 @@ ul.blog-tag-cloud li {
 .blog-entry-title a {
 	letter-spacing: -1px;
 	margin-bottom: 5px;
-	font-family: Georgia, "Times New Roman", Times, serif;
+	font-family: Tahoma, Georgia,Times, serif;
 	text-decoration: none;
 }
 
 .blog-entry-date {
 	margin-bottom: 15px;
-	font: italic 1.1em Georgia, "Times New Roman", Times, serif;
+	font: italic 1.1em Tahoma, Georgia,Times, serif;
 }
 
 .blog-read-more {
@@ -659,7 +659,7 @@ p.blog-entry-tags {
 .filesharing-item-title a:link {
 	letter-spacing: -1px;
 	margin-bottom: 5px;
-	font: 1.5em Georgia, "Times New Roman", Times, serif;
+	font: 1.5em Tahoma, Georgia,Times, serif;
 }
 
 .filesharing-item-title a:hover {
@@ -681,7 +681,7 @@ p.blog-entry-tags {
 .album-title {
 	letter-spacing: -1px;
 	margin-bottom: 5px;
-	font: 2.2em Georgia, "Times New Roman", Times, serif;
+	font: 2.2em Tahoma, Georgia,Times, serif;
 }
 
 .album-description {
@@ -778,7 +778,7 @@ p.blog-entry-tags {
 
 .photo-caption {
 	margin: 0;
-	font: italic normal 1em Georgia, "Times New Roman", Times, serif;
+	font: italic normal 1em Tahoma, Georgia,Times, serif;
 }
 
 /* @group EXIF data */
@@ -992,7 +992,7 @@ p.exif-user-comment {
 .movie-page-title {
 	letter-spacing: -1px;
 	margin-bottom: 5px;
-	font: 2.2em Georgia, "Times New Roman", Times, serif;
+	font: 2.2em Tahoma, Georgia,Times, serif;
 }
 
 .movie-page-description {
@@ -1031,7 +1031,7 @@ p.exif-user-comment {
 
 .movie-title {
 	letter-spacing: -1px;
-	font: 2.2em Georgia, "Times New Roman", Times, serif;
+	font: 2.2em Tahoma, Georgia,Times, serif;
 	margin: 10px 0 5px;
 }
 
