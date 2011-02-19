@@ -1,0 +1,20 @@
+[
+    {
+        "pk": 1, 
+        "model": "auth.user", 
+        "fields": {
+            "username": "jonasson", 
+            "first_name": "", 
+            "last_name": "", 
+            "is_active": true, 
+            "is_superuser": true, 
+            "is_staff": true, 
+            "last_login": "2011-02-18 21:12:00", 
+            "groups": [], 
+            "user_permissions": [], 
+            "password": "sha1$17a4d$913a112d719a024d47c8eb3e8d38cb8c5e27e889", 
+            "email": "jonassonjp@gmail.com", 
+            "date_joined": "2011-02-08 07:35:49"
+        }
+    }
+]
