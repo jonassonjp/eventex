@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>subscription/views.py</string>
+	<string>subscription/forms.py</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -27,28 +27,70 @@
 	<integer>200</integer>
 	<key>metaData</key>
 	<dict>
-		<key>settings.py</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>1</integer>
-				<key>line</key>
-				<integer>109</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>69</integer>
-		</dict>
-		<key>subscription/forms.py</key>
+		<key>media/css/styles.css</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
 				<integer>0</integer>
 				<key>line</key>
-				<integer>7</integer>
+				<integer>1054</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>1038</integer>
+		</dict>
+		<key>settings.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>16</integer>
+				<key>line</key>
+				<integer>105</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>70</integer>
+		</dict>
+		<key>subscription/forms.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>33</integer>
+				<key>line</key>
+				<integer>6</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>subscription/migrations/0001_initial.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>subscription/migrations/0002_auto__add_field_subscription_paid.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -60,23 +102,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>27</integer>
+				<integer>1</integer>
 				<key>line</key>
-				<integer>6</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>subscription/views.py</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>23</integer>
-				<key>line</key>
-				<integer>43</integer>
+				<integer>13</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -88,7 +116,7 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>8</integer>
+				<integer>35</integer>
 				<key>line</key>
 				<integer>9</integer>
 			</dict>
@@ -100,15 +128,17 @@
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>templates/subscription/new.html</string>
-		<string>subscription/views.py</string>
-		<string>subscription/models.py</string>
 		<string>settings.py</string>
+		<string>subscription/models.py</string>
+		<string>subscription/migrations/0002_auto__add_field_subscription_paid.py</string>
+		<string>media/css/styles.css</string>
+		<string>templates/subscription/new.html</string>
 		<string>subscription/forms.py</string>
+		<string>subscription/migrations/0001_initial.py</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{524, 106}, {1144, 922}}</string>
+	<string>{{525, 106}, {1144, 922}}</string>
 </dict>
 </plist>

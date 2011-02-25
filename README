@@ -11,3 +11,18 @@ Criar subscription/urls.py
     estabelecer relacao entre as urls.py e subscription/urls.py
 Criou o arquivo base.html
 Alterou index.html para herdar de base.html
+This is South, a Django application to provide migrations in a sane way.
+
+By sane, we mean that the status of every migration is tracked individually,
+rather than just the number of the top migration reached; this means South
+can detect when you have an unapplied migration that's sitting in the middle
+of a whole load of applied ones, and will let you apply it straight off,
+or let you roll back to it, and apply from there forward.
+
+Documentation on South is currently available on our project site;
+you can find it at http://south.aeracode.org/docs/
+
+=== SPRINT III ===
+
+Instalar o south (release 0.7.3)
+Adicioná-lo ao INSTALLED_APPS em settings

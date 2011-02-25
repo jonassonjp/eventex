@@ -1045,9 +1045,21 @@ p.exif-user-comment {
 /* @end */
 
 /* @group Contact Form */
+label{
+    display:block; 
+    width: 40px;
+    margin-right:10px;
+    margin-left: 5px;
+    float: left;
+}
+
+
 form {
 	margin: 0;
 }
+
+
+
 
 .message-text {
 	font-weight: bold;
