@@ -1,0 +1,86 @@
+[
+    {
+        "pk": 2, 
+        "model": "subscription.subscription", 
+        "fields": {
+            "name": "Enrisangela", 
+            "created_at": "2011-02-15 18:54:23", 
+            "paid": false, 
+            "phone": "0202020202", 
+            "cpf": "09090909", 
+            "email": "fgadutra@gmail.com"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "subscription.subscription", 
+        "fields": {
+            "name": "Jonas", 
+            "created_at": "2011-02-16 21:06:02", 
+            "paid": true, 
+            "phone": "00999", 
+            "cpf": "00000000000", 
+            "email": "eventex.jp@gmail.com"
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "subscription.subscription", 
+        "fields": {
+            "name": "Jonas", 
+            "created_at": "2011-02-18 21:23:00", 
+            "paid": false, 
+            "phone": "0101", 
+            "cpf": "111", 
+            "email": "jonassonjp@gmail.com"
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "subscription.subscription", 
+        "fields": {
+            "name": "Tereza", 
+            "created_at": "2011-02-25 10:49:26", 
+            "paid": false, 
+            "phone": "bla bla bla", 
+            "cpf": "0000000", 
+            "email": "tereza@email.com"
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "subscription.subscription", 
+        "fields": {
+            "name": "Carlinhos", 
+            "created_at": "2011-02-25 10:49:48", 
+            "paid": false, 
+            "phone": "", 
+            "cpf": "5555555555", 
+            "email": "carlos.silva@email.com"
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "subscription.subscription", 
+        "fields": {
+            "name": "Jo\u00e3o", 
+            "created_at": "2011-02-25 10:50:18", 
+            "paid": false, 
+            "phone": "", 
+            "cpf": "99999", 
+            "email": "joao@email.com"
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "subscription.subscription", 
+        "fields": {
+            "name": "Maria", 
+            "created_at": "2011-02-25 10:50:37", 
+            "paid": false, 
+            "phone": "", 
+            "cpf": "12", 
+            "email": "maria@email.com"
+        }
+    }
+]
