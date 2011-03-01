@@ -14,7 +14,12 @@ def subscribe(request):
 		return new(request)
 
 def new(request):
-	form = SubscriptionForm()
+	form = SubscriptionForm(initial={
+		'name': 'Seu nome',
+		'cpf': 'Digite seu CPF',
+		'email': 'Email para contato',
+		'phone': 'Telefone para contato'
+	})
 	context = RequestContext(request, {'form': form})
 	return render_to_response('subscription/new.html', context)
 
