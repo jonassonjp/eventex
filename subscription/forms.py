@@ -26,7 +26,7 @@ class SubscriptionForm(forms.ModelForm):
 		if	not self.cleaned_data.get('email') and \
 			not self.cleaned_data.get('phone'): 
 				raise forms.ValidationError(
-					_(u'Informe seu email ou telefone')
+					_(u'Favor informar seu email ou telefone')
 				)
 		return self.cleaned_data
 		
