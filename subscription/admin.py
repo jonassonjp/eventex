@@ -55,6 +55,7 @@ class SubscriptionAdmin(admin.ModelAdmin):
 	
 	def subscribed_today(self, obj):
 		return obj.created_at.date() == datetime.date.today()
+		
 	subscribed_today.short_description = 'Inscrito hoje?'
 	subscribed_today.boolean = True
 	
