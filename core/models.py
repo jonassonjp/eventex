@@ -13,10 +13,17 @@ class Speaker(models.Model):
   def __unicode__(self):
     return self.name
   
-  def __init__(self):
-    """Constructor Speaker Class"""
     
+   
+class KindContactManager(models.Manager):
+    def __init__(self, kind):
+        super(KindContactManager, self).__init__()
+        self.kind = kind
     
+    def get_query_set(self):
+        qs = super(KindContactManager, self).get_query_set()
+        qs = qs.filter(kind=self.kind)
+        return qs
     
 class Contact(models.Model):
     KINDS = (
@@ -33,13 +40,3 @@ class Contact(models.Model):
     emails = KindContactManager('E')
     faxes = KindContactManager('F')
     
-
-class KindContactManager(models.Manager):
-    def __init__(self, kind):
-        super(KindContactManager, self).__init__()
-        self.kind = kind
-    
-    def get_query_set(self):
-        qs = super(KindContactManager, self).get_query_set()
-        qs = qs.filter(kind=self.kind)
-        return qs

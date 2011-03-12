@@ -168,7 +168,7 @@ img {
 }
 
 #sidebarContainer h3 {
-	font-size: 1.15em;
+	font-size: 0.9em;
 }
 
 #sidebarContainer h4 {
@@ -324,7 +324,7 @@ h2 {
 
 h3 {
 	letter-spacing: -1px;
-	font: 1.6em Tahoma, Georgia,Times, serif;
+	font: Tahoma, Georgia,Times, serif;
 	margin: 0 0 5px;
 }
 
