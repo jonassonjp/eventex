@@ -16,10 +16,7 @@
             "email": "jonassonjp@gmail.com", 
             "date_joined": "2011-02-08 07:35:49"
         }
-    }
-]
-
-[
+    },
     {
         "pk": 1, 
         "model": "core.speaker", 
@@ -30,5 +27,6 @@
             "avatar": "palestrantes/Jonas-Avatar.jpg", 
             "slug": "jonas-andrade"
         }
-    }
+    }    
+    
 ]
