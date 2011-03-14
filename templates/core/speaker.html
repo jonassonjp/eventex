@@ -1,11 +1,26 @@
 {% extends 'base.html' %}
 {% block content %}
-<h1>Palestrante</h1>
-{% if speaker.avatar %}
-  <p> <img src="{{ speaker.avatar.url }}" width="200px" alt="{{ speaker.name }}" />
-  </p>
-{% endif %}
-<h3><a href="{{ speaker.url }}">{{ speaker.url }}</a></h3>
-Sobre:
- <p>{{ speaker.description }}</p>
+<div id="conteudo">
+        <div id="titulo">
+            Palestrante &nbsp;
+        </div>
+        <div id="perfil">
+            <div id="imagem">
+                {% if speaker.avatar %}
+                  <p> <img src="{{ speaker.avatar.url }}" width="200px" alt="{{ speaker.name }}" />
+                  </p>
+                {% endif %}
+                <br>
+                  {{ speaker.name }}
+            </div>
+            <div style="padding-top: 30px;" id="texto">
+                <p>
+                    {{ speaker.description }}
+                </p>
+            </div>
+        </div>
+    </div>
 {% endblock content %}
+
+
+
