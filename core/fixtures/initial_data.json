@@ -17,7 +17,6 @@
             "date_joined": "2011-02-08 07:35:49"
         }
     }
-][
     {
         "pk": 1, 
         "model": "core.speaker", 
@@ -29,4 +28,5 @@
             "slug": "jonas-andrade"
         }
     }
+    
 ]
