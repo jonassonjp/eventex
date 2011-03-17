@@ -40,3 +40,17 @@ class Contact(models.Model):
     emails = KindContactManager('E')
     faxes = KindContactManager('F')
     
+    
+class Talk(models.Model):
+  title = models.CharField(_(u'título'), max_length=200)
+  description = models.TextField(_(u'descrição'), blank=true)
+  start_time = models.TimeField(_(u'horário'), blank=true)
+  speakers = models.ManyToManyField('Speaker', verbose_name=_('palestrante'))
+  
+  objects = PeriodManager()
+  
+  class Meta:
+    verbose_name = _('Palestra')
+    
+  def __unicode__(self):
+    return unicode(self.title)
