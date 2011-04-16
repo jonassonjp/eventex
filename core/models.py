@@ -2,6 +2,7 @@
 
 from django.utils.translation import ugettext as _
 from django.db import models
+import datetime
 
 class Speaker(models.Model):
   name = models.CharField(max_length=255)
@@ -13,8 +14,20 @@ class Speaker(models.Model):
   def __unicode__(self):
     return self.name
   
-    
-   
+class PeriodManager(models.Manager):
+  midday = datetime.time(12)
+  
+  def at_morning(self):
+    qs = self.filter(start_time__lt=self.midday)
+    qs = qs.order_by('start_time')
+    return qs
+  
+  def at_afternoon(self):
+    qs = self.filter(start_time__gte=self.midday)
+    qs = qs.order_by('start_time')
+    return qs
+
+  
 class KindContactManager(models.Manager):
     def __init__(self, kind):
         super(KindContactManager, self).__init__()
@@ -43,8 +56,8 @@ class Contact(models.Model):
     
 class Talk(models.Model):
   title = models.CharField(_(u'título'), max_length=200)
-  description = models.TextField(_(u'descrição'), blank=true)
-  start_time = models.TimeField(_(u'horário'), blank=true)
+  description = models.TextField(_(u'descrição'), blank=True)
+  start_time = models.TimeField(_(u'horário'), blank=True)
   speakers = models.ManyToManyField('Speaker', verbose_name=_('palestrante'))
   
   objects = PeriodManager()
